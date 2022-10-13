@@ -71,7 +71,7 @@ export async function getStaticProps({
         locale: locale || {},
         uid,
       },
-      revalidate: 60,
+      // revalidate: 60,
     };
   } catch (error) {
     return {
@@ -94,7 +94,7 @@ export async function getStaticPaths(context) {
     paths: allPages
       .filter((page) => page.uid !== "404")
       .map((page) => prismicH.asLink(page, linkResolver)),
-//    fallback: true,
+    //    fallback: true,
     fallback: "blocking"
   };
 }
