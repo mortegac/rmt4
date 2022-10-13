@@ -1,3 +1,6 @@
+[functions]
+included_files = ["!node_modules/@mapbox/**/*"]
+
 [[headers]]
 for = "/*"
 [headers.values]
