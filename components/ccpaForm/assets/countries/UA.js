@@ -1,0 +1,7 @@
+import React from 'react';
+
+export const UA = () =><svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="28" height="20" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.6667H28V0H0V10.6667Z" fill="#156DD1"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 20H28V10.6667H0V20Z" fill="#FFD948"/>
+</svg>

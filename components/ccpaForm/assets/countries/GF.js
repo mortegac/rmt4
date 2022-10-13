@@ -1,0 +1,8 @@
+import React from 'react';
+
+export const GF = () =>
+<svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H28V20L0 0Z" fill="#078930"/>
+<path d="M0 0L28 20H0V0Z" fill="#FCDD09"/>
+<path d="M13.9988 6L14.8334 8.56581H17.5229L15.3487 10.1424L16.1833 12.7082L13.9988 11.1316L11.8142 12.7082L12.6489 10.1424L10.4747 8.56581H13.1641L13.9988 6Z" fill="#DA121A"/>
+</svg>

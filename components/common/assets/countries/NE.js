@@ -1,0 +1,9 @@
+import React from 'react';
+
+export const NE = () =>
+<svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="28" height="20" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.66667H28V0H0V6.66667Z" fill="#F0642F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 20H28V13.3333H0V20Z" fill="#2DCC45"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14 12.6667C15.4728 12.6667 16.6667 11.4728 16.6667 10C16.6667 8.52724 15.4728 7.33333 14 7.33333C12.5273 7.33333 11.3333 8.52724 11.3333 10C11.3333 11.4728 12.5273 12.6667 14 12.6667Z" fill="#E85C27"/>
+</svg>

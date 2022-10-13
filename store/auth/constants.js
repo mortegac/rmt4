@@ -1,0 +1,2 @@
+export const AUTH_GET_SESSION = 'AUTH_GET_SESSION';
+export const AUTH_SET_SESSION = 'AUTH_SET_SESSION';

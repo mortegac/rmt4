@@ -1,0 +1,85 @@
+{
+  "id": "footer",
+  "label": "Footer",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "logomenu": {
+        "type": "Image",
+        "config": {
+          "label": "Logomenu",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "displaytitle": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Displaytitle",
+          "placeholder": "Display title",
+          "allowTargetBlank": true,
+          "single": "paragraph,heading1"
+        }
+      },
+      "calltoactiontext": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Calltoactiontext",
+          "placeholder": "Get Started",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        }
+      },
+      "calltoactionurl": {
+        "type": "Link",
+        "config": {
+          "label": "Calltoactionurl",
+          "placeholder": "Call to action URL",
+          "select": null
+        }
+      },
+      "menulinks": {
+        "type": "Group",
+        "config": {
+          "label": "Menulinks",
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "Select a link...",
+                "select": null
+              }
+            }
+          }
+        }
+      },
+      "footerText": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Footer Text",
+          "placeholder": "Footer Text",
+          "allowTargetBlank": true,
+          "single": "paragraph,strong,em,hyperlink"
+        }
+      },
+      "copyright": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Copyright",
+          "placeholder": "Copyright Text",
+          "allowTargetBlank": true,
+          "single": "paragraph,strong,em,hyperlink"
+        }
+      }
+    }
+  }
+}

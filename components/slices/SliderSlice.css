@@ -1,0 +1,39 @@
+.swiper-container{
+  width:100%;
+}
+.swiper-slide {
+  min-width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  padding-bottom:20px;
+}
+.swiper-slide p {
+    padding-bottom:24px;
+    max-width:770px;
+    margin:0;
+}
+.swiper-slide h5 {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 17, 51, 0.6);
+  font-weight: bold;
+  margin:0;
+  padding-bottom:24px;
+}
+.swiper-button-next,.swiper-button-prev{
+  color:rgba(0, 17, 51, 0.3);
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: rgba(0, 17, 51, 0.6);
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: 0px;
+  right: auto;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  right: 0px;
+  left: auto;
+}

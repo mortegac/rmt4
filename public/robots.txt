@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://app.riamoneytransfer.com
+
+# Sitemaps
+Sitemap: https://app.riamoneytransfer.com/sitemap.xml

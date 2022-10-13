@@ -1,0 +1,11 @@
+{
+  "_latest": "0.3.6",
+  "apiEndpoint": "https://rmt4-public-site.prismic.io/api/v2",
+  "apiAccessToken": "",
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator",
+  "libraries": [
+    "@/slices"
+  ],
+  "framework": "next",
+  "storybook": "http://localhost:8888"
+}

@@ -1,0 +1,125 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap'); */
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  scrollbar-width: thin;
+}
+
+@media (max-width: 768px) {
+  * {
+    scrollbar-width: auto;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 11px;
+}
+@media (max-width: 768px) {
+  *::-webkit-scrollbar {
+    width: 15px;
+  }
+}
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0,17,51,.15);
+  border-radius: 9999px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: rgba(255,255,255,1);
+}
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+@media (max-width: 768px) {
+  textarea::-webkit-scrollbar {
+    width: 12px;
+  }
+}
+textarea::-webkit-scrollbar-thumb {
+  border: 0px;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: 65px;
+
+}
+
+a {
+  text-decoration: none;
+  color:var(--Ria-orange);
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 50px;
+  color: rgba(0, 17, 51, 0.8);
+  font-weight: normal;
+}
+
+li, p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 17, 51, 0.6);
+  text-align: left;
+}
+button {
+  outline:none;
+}
+
+:root {
+  --test-variable: white;
+  /* Theme spacing */
+  --container-width: 1136px;
+  --container-sm-width: 959px;
+  --container-xs-width: 599px;
+  --container-padding: 0 24px 0 24px;
+  /* Theme colors */
+  --Ria-orange: #ff6100;
+  --Dark: #001133;
+  --Bg-gray: #fafafb;
+  --Light: #ffffff;
+  /* Aux Colors */
+  --Green: #00cc99;
+  --Red: #ff3355;
+  --yellow: #ffbb00;
+  --Blue: #00aaff;
+  --Purple: #9966ff;
+  --Pink: #ff44bb;
+  --Light-gray: #00113326;
+  --Lighter-gray: #0011330d;
+  --Light-orange: #ff77114d;
+  --Lighter-orange: #ff771126;
+  --Lighter-green: #00cc9926;
+  --Lighter-red: #ff335526;
+  --Lighter-yellow: #f fbb0026;
+  --Lighter-blue: #00aaff26;
+  --Lighter-purble: #9966ff26;
+  --Lighter-pink: #ff44bb26;
+  /* Text Colors */
+  --Text-primary: #001133cc;
+  --Text-secondary: #00113399;
+  --Text-calc-primary: rgba(0, 17, 51, 0.8);
+  --Text-calc-secondary: rgba(0, 17, 51, 0.6);
+  --Text-calc-tertiary: #08873E;
+  --Text-tertiary: #0011334d;
+  --Text-orange: #E04B00;
+  --Text-green: rgba(8, 135, 62, 1);
+  --Text-red: #DB4D64;
+  --Text-yellow: #BD6500;
+  --Text-blue: #0085C7;
+  --Text-purple: #9069DD;
+  --Text-pink: #CF4A9E;
+}
+
+@import url("locations/components/Maps/mapbox.css");
+@import url("../components/locations/map.css");
+@import url("@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css");

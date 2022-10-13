@@ -1,0 +1,7 @@
+import React from 'react';
+
+export const BH = () =>
+<svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="28" height="20" fill="white"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M28 0H8L10 1.33333L8 2.66667L10 4L8 5.33333L10 6.66667L8 8L10 9.33333L8 10.6667L10 12L8 13.3333L10 14.6667L8 16L10 17.3333L8 18.6667L10 20H28V0Z" fill="#E7243B"/>
+</svg>

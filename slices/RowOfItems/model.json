@@ -1,0 +1,351 @@
+{
+  "id": "row_of_items",
+  "type": "SharedSlice",
+  "name": "RowOfItems",
+  "description": "RowOfItems",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "RowOfItems",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Section Title",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Section Description",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "CTAtext": {
+          "type": "StructuredText",
+          "config": {
+            "label": "CTAtext",
+            "placeholder": "CTA text",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "CTAurl": {
+          "type": "Link",
+          "config": {
+            "label": "CTAurl",
+            "placeholder": "CTA url",
+            "select": null
+          }
+        }
+      },
+      "items": {
+        "itemImage": {
+          "type": "Image",
+          "config": {
+            "label": "Item Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "itemEmoji": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Emoji",
+            "placeholder": "(Fill only if image is empty)",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "itemTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Title",
+            "placeholder": "Item Title",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          }
+        },
+        "itemDescription": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Description",
+            "placeholder": "Item Description",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "noDescription",
+      "name": "No Description",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "RowOfItems",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Section Title",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "CTAtext": {
+          "type": "StructuredText",
+          "config": {
+            "label": "CTAtext",
+            "placeholder": "CTA text",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "CTAurl": {
+          "type": "Link",
+          "config": {
+            "label": "CTAurl",
+            "placeholder": "CTA url",
+            "select": null
+          }
+        }
+      },
+      "items": {
+        "itemImage": {
+          "type": "Image",
+          "config": {
+            "label": "Item Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "itemEmoji": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Emoji",
+            "placeholder": "(Fill only if image is empty)",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "itemTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Title",
+            "placeholder": "Item Title",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          }
+        },
+        "itemDescription": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Description",
+            "placeholder": "Item Description",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "noCta",
+      "name": "No CTA",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "RowOfItems",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Section Title",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Section Description",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {
+        "itemImage": {
+          "type": "Image",
+          "config": {
+            "label": "Item Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "itemEmoji": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Emoji",
+            "placeholder": "(Fill only if image is empty)",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "itemTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Title",
+            "placeholder": "Item Title",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          }
+        },
+        "itemDescription": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Description",
+            "placeholder": "Item Description",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "titleAndItems",
+      "name": "Title and Items",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "RowOfItems",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Section Title",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "itemImage": {
+          "type": "Image",
+          "config": {
+            "label": "Item Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "itemEmoji": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Emoji",
+            "placeholder": "(Fill only if image is empty)",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "itemTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Title",
+            "placeholder": "Item Title",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          }
+        },
+        "itemDescription": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Description",
+            "placeholder": "Item Description",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "dandelion",
+      "name": "Dandelion",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "RowOfItems",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Section Title",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Section Description",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "items": {
+        "itemImage": {
+          "type": "Image",
+          "config": {
+            "label": "Item Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "itemEmoji": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Emoji",
+            "placeholder": "(Fill only if image is empty)",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "itemTitle": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Title",
+            "placeholder": "Item Title",
+            "allowTargetBlank": true,
+            "single": "heading3"
+          }
+        },
+        "itemDescription": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Item Description",
+            "placeholder": "Item Description",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+ }
+ 
+ 

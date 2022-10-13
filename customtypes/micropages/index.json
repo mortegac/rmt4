@@ -1,0 +1,320 @@
+{
+    "Main" : {
+      "uid" : {
+        "type" : "UID",
+        "config" : {
+          "label" : "slug",
+          "placeholder" : "slug"
+        }
+      },
+      "title" : {
+        "type" : "StructuredText",
+        "config" : {
+          "single" : "heading1",
+          "label" : "title",
+          "placeholder" : "Page title"
+        }
+      },
+      "description" : {
+        "type" : "StructuredText",
+        "config" : {
+          "multi" : "paragraph",
+          "label" : "Description",
+          "placeholder" : "Page description"
+        }
+      },
+      "body" : {
+        "type" : "Slices",
+        "fieldset" : "Slice zone",
+        "config" : {
+          "labels" : {
+            "micro_slice_one" : [ ],
+            "micro_slice_two" : [ ],
+            "micro_slice_tree" : [ ],
+            "micro_slice_four" : [ ]
+          },
+          "choices" : {
+            "micro_slice_one" : {
+              "type" : "Slice",
+              "fieldset" : "micro slice one",
+              "description" : "micro slice one",
+              "icon" : "filter_1",
+              "display" : "list",
+              "non-repeat" : {
+                "hero_heading" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "heading1",
+                    "label" : "hero_heading",
+                    "placeholder" : "Heading"
+                  }
+                },
+                "hero_description" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph",
+                    "label" : "hero_description",
+                    "placeholder" : "Description"
+                  }
+                },
+                "google_playstore_button_text" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph",
+                    "label" : "Google playstore button text",
+                    "placeholder" : "Google playstore button text"
+                  }
+                },
+                "google_playstore_button_url" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "hyperlink",
+                    "label" : "Google playstore button url",
+                    "placeholder" : "https://"
+                  }
+                },
+                "app_store_button_text" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph",
+                    "label" : "App store button text",
+                    "placeholder" : "App store button text"
+                  }
+                },
+                "app_store_button_url" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "hyperlink",
+                    "label" : "App store button url",
+                    "placeholder" : "https://"
+                  }
+                },
+                "mobile_button_text" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph",
+                    "label" : "Mobile button text",
+                    "placeholder" : "Mobile button text"
+                  }
+                },
+                "mobile_button_url" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "hyperlink",
+                    "label" : "Mobile button url",
+                    "placeholder" : "https://"
+                  }
+                },
+                "desktop_image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "constraint" : { },
+                    "thumbnails" : [ ],
+                    "label" : "Desktop image"
+                  }
+                },
+                "mobile_image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "constraint" : { },
+                    "thumbnails" : [ ],
+                    "label" : "Mobile image"
+                  }
+                },
+                "slice_title" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "heading1",
+                    "label" : "slice title",
+                    "placeholder" : "slice title"
+                  }
+                }
+              },
+              "repeat" : { }
+            },
+            "micro_slice_two" : {
+              "type" : "Slice",
+              "fieldset" : "micro slice two",
+              "description" : "Slice two",
+              "icon" : "filter_2",
+              "display" : "list",
+              "non-repeat" : {
+                "heading_title" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "heading2",
+                    "label" : "Heading title",
+                    "placeholder" : "Heading title"
+                  }
+                },
+                "heading_description" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph",
+                    "label" : "Heading description",
+                    "placeholder" : "Heading description"
+                  }
+                },
+                "sign_up_button_text" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph",
+                    "label" : "sign up button text",
+                    "placeholder" : "sign up button text"
+                  }
+                },
+                "sign_up_button_link" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "hyperlink",
+                    "label" : "sign up button link",
+                    "placeholder" : "https://"
+                  }
+                },
+                "bg_section" : {
+                  "type" : "Color",
+                  "config" : {
+                    "label" : "bg section"
+                  }
+                }
+              },
+              "repeat" : { }
+            },
+            "micro_slice_tree" : {
+              "type" : "Slice",
+              "fieldset" : "micro slice tree",
+              "description" : "microsite slice tree",
+              "icon" : "filter_3",
+              "display" : "list",
+              "non-repeat" : {
+                "heading_title" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "heading2",
+                    "label" : "Heading title",
+                    "placeholder" : "Heading title"
+                  }
+                },
+                "heading_description" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph",
+                    "label" : "Heading description",
+                    "placeholder" : "Heading description"
+                  }
+                },
+                "desktop_image_map_one" : {
+                  "type" : "Image",
+                  "config" : {
+                    "constraint" : { },
+                    "thumbnails" : [ ],
+                    "label" : "Desktop image map one"
+                  }
+                },
+                "map_one_description" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph",
+                    "label" : "map one description",
+                    "placeholder" : "Map Description"
+                  }
+                },
+                "image_logo_walmart_one" : {
+                  "type" : "Image",
+                  "config" : {
+                    "constraint" : { },
+                    "thumbnails" : [ ],
+                    "label" : "image logo walmart one"
+                  }
+                },
+                "desktop_image_map_two" : {
+                  "type" : "Image",
+                  "config" : {
+                    "constraint" : { },
+                    "thumbnails" : [ ],
+                    "label" : "Desktop image map two"
+                  }
+                },
+                "map_two_description" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph",
+                    "label" : "map two description",
+                    "placeholder" : "Map Description"
+                  }
+                },
+                "image_logo_walmart_two" : {
+                  "type" : "Image",
+                  "config" : {
+                    "constraint" : { },
+                    "thumbnails" : [ ],
+                    "label" : "image logo walmart two"
+                  }
+                },
+                "find_a_location_button_text" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph",
+                    "label" : "find a location button text",
+                    "placeholder" : "find a location button text"
+                  }
+                },
+                "find_a_location_button_link" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "hyperlink",
+                    "label" : "find a location button link",
+                    "placeholder" : "https://"
+                  }
+                }
+              },
+              "repeat" : { }
+            },
+            "micro_slice_four" : {
+              "type" : "Slice",
+              "fieldset" : "micro slice four",
+              "description" : "Section four microsite",
+              "icon" : "filter_4",
+              "display" : "list",
+              "non-repeat" : {
+                "feature_boxes_heading" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "heading1",
+                    "label" : "Feature boxes heading",
+                    "placeholder" : "heading"
+                  }
+                }
+              },
+              "repeat" : {
+                "box_image" : {
+                  "type" : "Image",
+                  "config" : {
+                    "constraint" : { },
+                    "thumbnails" : [ ],
+                    "label" : "box_image"
+                  }
+                },
+                "box_title" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "single" : "heading5",
+                    "label" : "box_title",
+                    "placeholder" : "Title"
+                  }
+                },
+                "box_description" : {
+                  "type" : "StructuredText",
+                  "config" : {
+                    "multi" : "paragraph",
+                    "label" : "Box description",
+                    "placeholder" : "description"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

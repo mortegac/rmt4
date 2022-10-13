@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+.next
+.next/
+/out
+
+/public/sitemap.xml
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+package-lock.json
+
+.vcode
+.vercel
+.vscode
+.idea
+# Local Netlify folder
+.netlify

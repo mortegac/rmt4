@@ -1,0 +1,18 @@
+import React from 'react';
+
+export const SS = () =><svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="28" height="20" fill="white"/>
+<path d="M40 14H0V20H40V14Z" fill="#078930"/>
+<path d="M40 6H0V14H40V6Z" fill="white"/>
+<path d="M40 0H0V6H40V0Z" fill="black"/>
+<path d="M40 7H0V13H40V7Z" fill="#DA121A"/>
+<path d="M0 0L17.32 10L0 20V0Z" fill="#0F47AF"/>
+<path d="M2.57333 9.99999L8.36267 11.8813L4.784 6.95599V13.044L8.36267 8.11866L2.57333 9.99999Z" fill="#FCDD09"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="28" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>

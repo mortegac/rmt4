@@ -1,0 +1,153 @@
+{
+  "id": "contact_dande_form",
+  "type": "SharedSlice",
+  "name": "ContactDandeForm",
+  "description": "ContactDandeForm",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ContactDandeForm",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "Title",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "Description",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          }
+        },
+        "firstNameLabel": {
+          "type": "StructuredText",
+          "config": {
+            "label": "First Name Label",
+            "placeholder": "First name label",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "lastNameLabel": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Last Name Label",
+            "placeholder": "Last Name label",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "workEmailLabel": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Work Email Label",
+            "placeholder": "Work email label",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "phoneLabel": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Phone Label",
+            "placeholder": "Phone number label",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "jobTitleLabel": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Job Title Label",
+            "placeholder": "Job title label",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "companyLabel": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Company Label",
+            "placeholder": "Company label",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "countryLabel": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Country Label",
+            "placeholder": "Country label",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "countryPlaceholder": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Country Placeholder",
+            "placeholder": "Select one",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "inquiryLabel": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Inquiry Label",
+            "placeholder": "Inquiry type",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "inquiryPlaceholder": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Inquiry Placeholder",
+            "placeholder": "Select one",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "privacyPolicyTerms": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Privacy Policy Terms",
+            "placeholder": "Privacy policy terms",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "contactCtaText": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Contact Cta Text",
+            "placeholder": "Contact us",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "contactCtaLink": {
+          "type": "Link",
+          "config": {
+            "label": "Contact Cta Link",
+            "placeholder": "Contact us link",
+            "select": null
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}
