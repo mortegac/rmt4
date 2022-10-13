@@ -120,6 +120,6 @@ button {
   --Text-pink: #CF4A9E;
 }
 
-@import url("locations/components/Maps/mapbox.css");
+/* @import url("locations/components/Maps/mapbox.css");
 @import url("../components/locations/map.css");
-@import url("@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css");
+@import url("@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder.css"); */
